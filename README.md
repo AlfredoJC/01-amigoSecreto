@@ -87,7 +87,7 @@ function mostrarListaAmigos() {
 }
 ```
 ### 5. `empezarDeNuevo()`
-Limpiar el campo de entrada de texto para permitir que el usuario agregue un nuevo nombre sin interferencias.
+Limpiar el campo de entrada de texto, tambien limpia los nombres (amigos) de la lista para permitir que el usuario empieze con nuevos amigos.
 ```javascript
 function empezarDeNuevo() {
     let estado= document.querySelector(".button-draw").textContent;
