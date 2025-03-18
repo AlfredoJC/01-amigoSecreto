@@ -6,11 +6,14 @@ Este es un sencillo juego de Amigo Secreto, donde los usuarios pueden agregar no
 El juego de **Amigo Secreto** permite a los usuarios agregar nombres a una lista, realizar un sorteo aleatorio de amigos secretos y ver los resultados en pantalla. Si es necesario, te permite reiniciar el juego para realizar nuevos sorteos, eso si se repite el proceso de agregar amigos.
 
 ## Funcionalidades
+- **Agregar amigos**: Los usuarios escribirán el nombre de un amigo en un campo de texto y lo agregarán a una lista visible al hacer clic en "Adicionar".
 
-- **Agregar amigos**: Los usuarios pueden agregar nombres a la lista de amigos.
-- **Sortear un amigo secreto**: El sistema elige un amigo secreto de forma aleatoria y lo muestra en pantalla.
-- **Reiniciar el juego**: Permite limpiar la lista de amigos y comenzar un nuevo sorteo después de que se haya mostrado el resultado.
-- 
+- **Validar entrada**: Si el campo de texto está vacío, el programa mostrará una alerta pidiendo un nombre válido.
+
+- **Visualizar la lista**: Los nombres ingresados aparecerán en una lista debajo del campo de entrada.
+
+- **Sorteo aleatorio**: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
+
 ## ¿Cómo funciona?
 
 ### 1. **Agregar un Amigo**
@@ -18,7 +21,7 @@ Cuando el usuario ingresa un nombre y hace clic en **"Adicionar"**, este se agre
 Si el formulario(campo de texto) está vacío o hay solamente espacios, el sistema te mostrará una alerta **"Por favor, inserte un nombre."**.
 
 ### 2. **Sortear un Amigo Secreto**
-Una vez que se hayan agregado amigos a la lista, el usuario puede hacer clic en **"Sortear Amigo"** para elegir aleatoriamente un amigo secreto de la lista. El resultado se mostrará en la pantalla **"El amigo Sorteado es: Nombre de amigo"**
+Una vez que se hayan agregado amigos a la lista, el usuario puede hacer clic en **"Sortear Amigo"** para elegir aleatoriamente un amigo secreto de la lista. El resultado se mostrará en la pantalla **"El amigo Sorteado es: Nombre de amigo"**. En el caso que no haya agregado ningun nombre, se mostrara una alerta :  **"No has agregado amigos"**
 
 ### 3. **Reiniciar el Juego**
 Después de que se haya realizado el sorteo el botón **"Sortear Amigo"** cambiara a **"reiniciar Sorteo"**, al hacer clic en reiniciar sorteo,  se limpiará la lista de amigos y el ganador, el botón cambiará de nombre a **"Sortear Amigo"**   y tendrá que agregar nuevamente nuevos amigos para realizar un nuevo sorteo. 
